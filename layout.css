@@ -43,6 +43,8 @@ header {
   color: #8e7069;
 }
 
+/******** Mobile Menu *********/
+
 @media (max-width: 800px) {
   .menu {
     display: none;
@@ -155,6 +157,10 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
+  }
+  .grid_1-1-1-1 img {
+    align-self: stretch;
+    object-fit: cover;
   }
 
   .billede1 {
