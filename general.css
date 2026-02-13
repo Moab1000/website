@@ -1,0 +1,97 @@
+/*************** Reset *********************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/*************** fonts *********************/
+@font-face {
+  font-family: "Grinched";
+  src: url("fonts/grinched_2.0-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.almendra-regular {
+  font-family: "Almendra", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*************** farver *********************/
+
+.color1 {
+  color: #b0a8b9;
+}
+.color2 {
+  color: #4b4453;
+}
+.color3 {
+  color: #b5a5c8;
+}
+.color4 {
+  color: #c4a49d;
+}
+.color5 {
+  color: #8e7069;
+}
+
+/*************** design *********************/
+body {
+  background-color: #b0a8b9;
+}
+main {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 0 0.5rem;
+}
+h1,
+h2,
+h3 {
+  font-family: "Grinched", sans-serif;
+  color: #4b4453;
+}
+h1 {
+  text-align: center;
+}
+
+p {
+  max-width: 70ch;
+  font-family: "Almendra", sans-serif;
+  color: #4b4453;
+  margin-block: 1rem 0.5rem;
+  line-height: 1.6;
+}
+dl,
+dd {
+  color: #4b4453;
+}
+
+.fodtext p {
+  font-family: sans-serif;
+  color: black;
+}
+
+/*************** lukkethed  *********************/
+.boks1 {
+  background-color: #b5a5c8;
+  padding: 1rem;
+  margin-block: 1rem 0.5rem;
+}
+.boks2 {
+  background-color: #c4a49d;
+  padding: 1rem;
+  margin-block: 1rem 0.5rem;
+}
+.boks3 {
+  background-color: #8e7069;
+  padding: 1rem;
+  margin-block: 1rem 0.5rem;
+}
